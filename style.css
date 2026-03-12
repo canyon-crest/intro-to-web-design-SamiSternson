@@ -1,9 +1,47 @@
 body{
 
 background-color:rgb(154, 170, 216);
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding:10px;
+}
+#container{
+    width:1000px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    line-height: 1.5em;
+}
+a:link{
+    font-weight: bold;
+    color:rgb(29, 80, 37);
+        text-decoration: none;
+}
+a:visited{
+    color:rgb(203, 216, 154);
+        text-decoration: underline;
+}
+a:hover{
+    font-size:1.05em;
+        text-decoration: underline;
 }
 img {
     width:300px;
-
-    padding:20px;
+    float:left;
+    padding:10px;   
+}
+img:hover{
+    width:450px;
+}
+#right_image{
+    float:right;
+}
+.excited{
+    font-style: italic;
+    text-decoration:underline;
+    font-weight:bold;
 }
